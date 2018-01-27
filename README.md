@@ -1,2 +1,2 @@
 # Python_lib
-Collection of handy python code (beginner level)
+Collection of handy python code for a struggling biologist (beginner level)
