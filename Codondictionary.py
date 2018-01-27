@@ -1,3 +1,7 @@
+''''
+Function to create a "codon to amino-acid" translation dictionary using a codontable textfile as input
+''''
+
 #File used as template (see repository)
 codontable = 'codonCodingTable.txt'
 
