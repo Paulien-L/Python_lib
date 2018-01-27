@@ -1,4 +1,4 @@
-sequence = r'C:\Users\Computer\Documents\Bioinformatics phase 1\Semester 1\Practical computing\sequence.fasta'
+sequence = 'sequence.fasta'
 def readSeq(file):
     with open(file) as f:
         f.readline()
