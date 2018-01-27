@@ -15,7 +15,7 @@ def readCodonTable(file):
         #list of residues on even lines
         residues = lines[1::2]
         
-        #zip into dictionary with codons as key and residues as value
+        #zip into dictionary with codons as keys and residues as values
         trans_dict = dict(zip(codons, residues))
         
         return trans_dict
