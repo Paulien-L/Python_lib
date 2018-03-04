@@ -1,4 +1,6 @@
 '''
+Functions to parse a PBD file and analyze the protein's residues and the hetero atoms in the crystal structure.
+Protein used: 5kkk, sperm whale myoglobin.
 Author: Paulien L
 Date: 13-12-2017
 Note: results won't be entirely correct as A/B variants of residues in the PDB file are ignored.
