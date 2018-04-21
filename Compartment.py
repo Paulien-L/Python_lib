@@ -8,10 +8,12 @@ import numpy as np
 from scipy.integrate import odeint
 from matplotlib.pyplot import show, figure
 
+#Define initial values of compartments and rate constants
 G0, C0, P0, E0 = 1.8, 0, 0, 0
 kg, kc, kp, ke = 5, 2, 2, 0.4
 
-t = np.linspace(0, 3)
+#Set space of simulation
+t = np.linspace(0, 3, 200)
 
 def deriv(y, t, kg, kc, kp, ke):
     G, C, P, E = y
