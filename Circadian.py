@@ -1,6 +1,8 @@
 '''
 Dynamical system implementing Goldbeter circadian rhythm model.
 Generates plot of rate reactions over time.
+
+@April 2018
 '''
 
 import numpy as np
