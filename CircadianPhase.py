@@ -1,6 +1,8 @@
 '''
 Dynamical system implementing Goldbeter circadian rhythm model.
 Generates phase space plot.
+
+@April 2018
 '''
 
 
